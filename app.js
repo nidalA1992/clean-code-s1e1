@@ -55,6 +55,7 @@ function createNewTaskElement(taskString) {
 
     deleteButton.className="task-form__delete-btn delete-btn primary-button";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.alt = "";
     deleteButtonImg.className = "delete-btn__img";
     deleteButton.appendChild(deleteButtonImg);
 
